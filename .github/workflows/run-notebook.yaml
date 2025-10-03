@@ -10,6 +10,8 @@ on:
   # Schedule: Run every day at 9 AM UTC (optional)
   # schedule:
   #   - cron: '0 9 * * *'
+permissions:
+  contents: write
 
 jobs:
   run-notebook:
